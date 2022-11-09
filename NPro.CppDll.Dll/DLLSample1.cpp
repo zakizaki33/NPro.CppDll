@@ -18,3 +18,19 @@ int GetTitleBarHeight()
 {
     return GetSystemMetrics(SM_CYCAPTION);
 }
+
+// doubleŒ^‚Ì’l‚ğ“n‚·—ûK‚ğ‚·‚é
+double GetDoubleValue() 
+{
+    return 123.321;
+}
+
+// •¶š—ñ‚ğ“n‚·—ûK‚ğ‚·‚é
+std::string GetString()
+{
+    return "abcde";
+}
+
+BSTR GetName() {
+    return SysAllocString(L"test");
+}

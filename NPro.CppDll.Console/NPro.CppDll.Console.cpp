@@ -14,6 +14,14 @@ int main()
     int tb = GetTitleBarHeight();
     printf_s("TitleBar Height = %d\n", tb);
 
+    // doubleが受け取れるか確認
+    double test_double = GetDoubleValue();
+    std::cout << "GetDoubleValue is "<< test_double << std::endl;
+
+    // 文字列が受け取れるか確認
+    std::cout << GetString() << std::endl;
+    std::cout << GetName() << std::endl; //文字化けする
+
     getchar();
     return 0;
 }
